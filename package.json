@@ -1,0 +1,25 @@
+{
+  "name": "react-native-async-task",
+  "version": "1.1.0",
+  "description": "Schedule Async tasks(OneTime or Repeated) in React Native that run your JavaScript when your app is in the background.",
+  "main": "index.js",
+  "repository": "https://github.com/akki-ng/react-native-async-task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "document": "documentation readme --readme-file README.md -s \"API\" -g"
+  },
+  "keywords": [
+    "background-job",
+    "react-native",
+    "async-task",
+    "async-job",
+    "onetime job",
+    "repeated job"
+  ],
+  "author": "Akshay Sharma <akshay.sharma@neogrowth.in>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.36.0"
+  }
+}
+Contact GitHub API Training Shop Blog About

@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ng.asynctask">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application>
+        <service android:name=".AsyncJob"
+                 android:permission="android.permission.BIND_JOB_SERVICE"
+                 android:exported="true"/>
+        <service android:name=".HeadlessService"
+                 android:enabled="true"/>
+    </application>
+</manifest>
